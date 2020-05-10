@@ -1,3 +1,3 @@
 # Coronavirus Tracker
 
-## Simple coronavirus tracker
+## Simple covid-19 tracker using kawalcorona API
