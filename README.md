@@ -1,3 +1,3 @@
 # Coronavirus Tracker
 
-## Simple covid-19 tracker using kawalcorona API
+## Simple covid-19 tracker using mathdro.id API

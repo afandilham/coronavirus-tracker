@@ -34,9 +34,9 @@ const GlobalController = async () => {
 
     Object.values(state.GlobalCountries.countries).forEach(async (data) => {
       
-      const response = await fetch(`https://covid19.mathdro.id/api/countries/${data.name}`);
+      const response = await fetch(`https://covid19.mathdro.id/api/countries/${data.name}/`);
       const responseJson = await response.json();
-
+      
       globalCasesView.renderGlobalTable(responseJson, data.name)
     });
 
