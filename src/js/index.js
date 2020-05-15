@@ -32,7 +32,7 @@ const GlobalController = async () => {
     await state.cardGlobal.getGlobalCard();
     await state.GlobalCountries.getGlobalCountries();
 
-    Object.values(state.GlobalCountries.countries).forEach(async (data) => {
+    state.GlobalCountries.countries.map( async (data) => {
       
       const response = await fetch(`https://covid19.mathdro.id/api/countries/${data.name}/`);
       const responseJson = await response.json();
