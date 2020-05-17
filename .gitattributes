@@ -198,3 +198,4 @@ Procfile          text
 
 * linguist-vendored
 *.html linguist-vendored=false
+*.js linguist-vendored=true
